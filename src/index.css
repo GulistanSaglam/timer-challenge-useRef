@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.challenge{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 1rem 3rem;
+  background-color: rgb(224, 192, 150);
+}
+.challenge button{
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.challenge button:hover{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
